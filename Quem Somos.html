@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <header>
+   
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="/docs/4.1/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="">
+            </a>
+            <a class="navbar-brand" href="#">AMC LOCAÇÃO</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="#">Home <span class="sr-only">(Página atual)</span></a>
+                    <a class="nav-item nav-link active" href="#">Quem somos</a>
+                    <a class="nav-item nav-link" href="#">Equipamentos</a>
+                    <a class="nav-item nav-link" href="#">Cotação</a>
+                </div>
+            </div>
+
+            <!-- Botão para acionar modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalCentralizado">
+            Login
+            </button>
+
+    <!-- Modal -->
+            <div class="modal fade" id="ModalCentralizado" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="TituloModalCentralizado">LOGIN</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Endereço de email</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu email">
+                                    <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small>
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputPassword1">Senha</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+                                </div>
+                                <div class="form-group form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Clique em mim</label>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Enviar</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+        <h1>Quem Somos</h1>
+        <img src="" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui molestiae explicabo blanditiis alias a, aut porro ipsum ad error incidunt minus repellat, accusantium, obcaecati quas. Officiis ducimus expedita ipsum quasi.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, accusamus ullam nam iure iste dolore, voluptatibus nisi placeat distinctio aperiam, animi dolorem facilis. Vel, maxime. Recusandae accusantium quis optio enim!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem molestias eius iusto ad tempore illum consequatur. Illo, minima neque placeat numquam, cumque iste quasi velit perspiciatis maiores sapiente, praesentium et! Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis beatae est sequi enim nobis dolor, id unde, rem hic officia mollitia odit incidunt tenetur tempora veritatis et ipsam assumenda! Odio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nemo iusto possimus error similique nobis natus laudantium molestiae perspiciatis quo, velit ea dignissimos ipsum nesciunt fugiat quasi quod nihil. Cumque.</p>
+    </main>
+
+    <footer class="btn btn-primary">
+        <span class="footer-text">Desenvolvido por Luiz Guerreiro</span>
+        <a class="footer-lnk" href="https://www.linkedin.com/in/luiz-fernando-guerreiro/" target="_blank"><img class="footer-img" src="./img/icons8-linkedin-circundado-48.png" alt="icone Linkedin"></a>
+        <a class="footer-link" href="https://github.com/lfbguerreiro" target="_blank"><img class="footer-img" src="./img/icons8-github-50.png" alt="icone Github"></a>
+    </footer>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> 
+</body>
+</html>

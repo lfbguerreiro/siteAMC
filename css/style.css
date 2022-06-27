@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* banner */
+
+.banner-container{
+   width: 100%;
+   background-color: aqua;
+
+   
+}
+
+
+
+.bg--banner{
+   width: 100%;
+   justify-content: center;
+   align-items: center;
+}
+
+.img--bg{
+   width: 100%;
+   
+}
+
+.banner-button{
+   background-color: rgb(190, 190, 190);
+   border: 2px solid #e01e1e;
+   border-radius: 16px;
+   font-weight: 700;
+   font-size: 1.2rem;
+   cursor: pointer;
+   transition: all 0.3s ease-in-out;
+   padding: 10px 0px;
+   width: 150px;
+   height: -42vh;
+}
+
+.banner-button a{
+   text-decoration: none;
+   color: white;
+   font-weight: 300;
+   letter-spacing: 2px;
+   padding: 0 30px;
+}
+
+/* card */
+
+.cards{
+   padding: 20px;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.card{
+   border-radius: 16px;
+   margin: 30px;
+}
+
+.card-img-top{
+   border-radius: 16px 16px 0 0;
+}
+
+/* footer */
+   footer{
+      width: 100%;
+   }
