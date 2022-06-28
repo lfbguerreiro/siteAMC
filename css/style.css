@@ -18,12 +18,32 @@ html{
 
 .banner-container{
    width: 100%;
-   background-color: aqua;
-
-   
 }
 
+.banner-img{
+   background-attachment: fixed;
+   color: aliceblue;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
 
+.banner-tittle{
+   text-align: center;
+}
+
+.banner-text{
+   font-size: 1rem;
+}
+
+#img01{
+   background-image: url(/img/pst16-capa-1740x615.jpg);
+   height: 100vh;
+   background-repeat: no-repeat;
+   width: 100%;
+   background-size: cover;
+}
 
 .bg--banner{
    width: 100%;
@@ -102,4 +122,38 @@ html{
 /* footer */
 footer{
    width: 100%;
+}
+
+
+/* quem somos */
+
+.qs-tittle{
+   text-align: center;
+   margin-top: 30px;
+}
+
+.qs-img{
+   height: 100%;
+   margin: 30px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+
+}
+
+.qs-content{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding: 20px;
+
+   
+}
+
+.qs-content p{
+   font-size: 1.5rem;
+   display: flex;
+   justify-content: center;
+   
 }
